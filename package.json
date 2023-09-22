@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-fastify-prisma-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon -e js,env,prisma --exec \"node src\"",
+    "prisma:g": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "5.3.1",
+    "fastify": "4.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1",
+    "prisma": "5.3.1"
+  }
+}
